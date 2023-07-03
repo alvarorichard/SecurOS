@@ -37,16 +37,16 @@ cd SecurOS
 
 
 3. Compile the project using the following commands:
-
+```asm
 nasm -f bin bootloader.asm -o bootloader.bin
 gcc -m32 -c kernel.c -o kernel.o
 ld -m elf_i386 -T linker.ld -o SecurOS.bin bootloader.bin kernel.o
-
+```
 
 4. Run the SecurOS image in QEMU:
-
+```shell
 qemu-system-i386 -kernel SecurOS.bin
-
+```
 
 ## Contributing
 
