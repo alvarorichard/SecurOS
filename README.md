@@ -25,13 +25,14 @@ These instructions will help you get a copy of the SecurOS project up and runnin
 ### Building and Running
 
 1. Clone the SecurOS repository to your local machine:
-
-git clone https://github.com/your-username/SecurOS.git
-
+```shell
+git clone https://github.com/alvarorichard/SecurOS.git
+```
 
 2. Navigate to the project directory:
-
+```shell
 cd SecurOS
+```
 
 
 
