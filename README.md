@@ -44,7 +44,9 @@ nasm -f bin bootloader.asm -o bootloader.bin
 ```c
 gcc -m32 -c kernel.c -o kernel.o
 ```
-and
+
+To link the binary, execute the following command:
+
 ```c
 ld -m elf_i386 -T linker.ld -o SecurOS.bin bootloader.bin kernel.o
 ```
